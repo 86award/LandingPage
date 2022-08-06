@@ -1,0 +1,34 @@
+.action {
+    display: flex;
+    justify-content: center;
+
+    padding: 64px;
+}
+
+.action-banner {
+    display: flex;
+    justify-content: space-around;
+
+    width: 80%;
+    padding: 64px;
+    border-radius:8px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.action-banner .title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action-banner>button {
+    padding: 0 32px;
+    color: #F9FAF8;
+    border-radius:8px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    background-color: #3882F6;
+    font-size: 14px;
+    gap: 8px;
+}
