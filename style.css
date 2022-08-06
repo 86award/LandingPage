@@ -19,7 +19,7 @@ body {
 
 .header-title {
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 ul {
@@ -42,6 +42,43 @@ a {
     justify-content: center;
     background-color: #1F2937;
     padding: 64px;
+    gap: 32px;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.banner-left-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.banner-left-text {
+    margin: 8px 0;
+}
+
+.banner-button {
+    align-self: flex-start;
+    padding: 8px 16px;
+    color: #F9FAF8;
+    border-radius:6px;
+    border-style: solid;
+    border-color: #3882F6;;
+    background-color: #3882F6;
+    font-size: 14px;
+    gap: 8px;
+}
+
+.banner-right {
+    background-color: grey;
+    flex-basis: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .main-body {
@@ -49,27 +86,57 @@ a {
     flex-direction: column;
     justify-content: center;
     background-color: #F9FAF8;
-    padding: 64px;
+    padding: 0px 64px 64px 64px;
+    text-align: center;
 }
 
 .main-body-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    border-radius:8px;
+    margin: 32px;
+    border-color: #3882F6;
+    border-style: solid;
+    background-color: #F9FAF8;
+    flex-shrink: 0;
+
+    display: flex;
+}
+
+.main-body-title {
+    font-size: 36px;
+    color: #1F2937;
+    padding: 16px;
+
 }
 
 .information {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
     padding: 64px;
+    color: #1F2937;
+    font-size: 20px;
+}
+
+.information-owner {
+    align-self: flex-end;
+    font-weight: 700;
 }
 
 .action {
     display: flex;
     justify-content: center;
     background-color: #F9FAF8;
-    padding: 20px 64px;
+    padding: 64px;
 }
 
 .action-banner {
